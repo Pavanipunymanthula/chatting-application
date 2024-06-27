@@ -58,7 +58,7 @@ router.post('/register', function(req, res, next) {
 	}
 });
 
-// Social Authentication routes
+//Social Authentication routes
 // 1. Login via Facebook
 router.get('/auth/facebook', passport.authenticate('facebook'));
 router.get('/auth/facebook/callback', passport.authenticate('facebook', {
