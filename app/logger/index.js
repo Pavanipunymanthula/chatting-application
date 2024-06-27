@@ -1,5 +1,4 @@
 'use strict';
-
 var winston = require('winston');
 
 var logger = new (winston.Logger)({
@@ -18,5 +17,5 @@ var logger = new (winston.Logger)({
 	],
 	exitOnError: false
 });
-
+//this is the main logger
 module.exports = logger;

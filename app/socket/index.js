@@ -7,7 +7,7 @@ var adapter = require('socket.io-redis');
 var Room = require('../models/room');
 
 /**
- * Encapsulates all code for emitting and listening to socket events
+ * Encapsulates all code for emitting and listening to socket event
  *
  */
 var ioEvents = function(io) {

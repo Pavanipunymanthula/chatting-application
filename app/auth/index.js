@@ -12,7 +12,7 @@ var User = require('../models/user');
 
 /**
  * Encapsulates all code for authentication 
- * Either by using username and password, or by using social accounts
+ * Either by using username and password,or by using social accounts
  *
  */
 var init = function(){

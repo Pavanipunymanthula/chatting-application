@@ -11,7 +11,7 @@ const DEFAULT_USER_PICTURE = "/img/user.jpg";
  * If the user registered via username and password(i.e. LocalStrategy), 
  *      then socialId should be null.
  * If the user registered via social authenticaton, 
- *      then password should be null, and socialId should be assigned to a value.
+ *    then password should be null, and socialId should be assigned to a value.
  * 2. Hash user's password
  *
  */
