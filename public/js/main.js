@@ -155,7 +155,12 @@ var app = {
       $(".chat-history").animate({ scrollTop: $('.chat-history')[0].scrollHeight}, 1000);
     },
 
-    
+    // Update number of rooms
+    // This method MUST be called after adding a new room
+    updateNumOfRooms: function(){
+      var num = $('.room-list ul li').length;
+      $('.room-num-rooms').text(num +  " Room(s)");
+    },
 
     // Update number of online users in the current room
     // This method MUST be called after adding, or removing list element(s)
